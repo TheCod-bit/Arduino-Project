@@ -1,0 +1,12 @@
+Architecture : The HC- SR04 ultrasonic sensor in the Arduino will send out sound pulses and measure how long they take to bounce back . 
+This gives us the distance to whatever is in front ot fit , which in this project is a hand . The Ultransonic sensor will sense the distance of the hand or object lots of times per second 
+which becomes several distance numbers. This data is given towards the Aruino and then the model takes a short analyzation of those readings and outputs one signal which is toward away or hold . 
+I am starting with these three because they are the simplest ones to startsoff from .
+
+
+Dataset: I will reocrd around 50 examples of the singals , which are 150 recordings total . Each recording is about 2 seconds of distance reading while I do the motion once.To keep the 
+data conssiten I will start my hand at the same spot each time , and then move at differnt speeds and record it .Every recording is saved with its label so the training script knows 
+the right answer.
+
+Learning Method : The Uno R3 has honly 2KB of RAM so it is barely teachable. I will utilise Python on my laptop , load the recordings  , pull out simple freatures , and more. I will tain a small descision
+tree because it is efficient , fast , and easy to convert to C for the Arduino. 
