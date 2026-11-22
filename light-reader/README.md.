@@ -1,0 +1,7 @@
+Architecture : A photoresistor from my Arduino R3 supplies will measure the the light level many times a second. Then the model will analyze these readings and decide what pattern it is seeing such as if it is
+dark or light. 
+
+Dataset: I will record 50 windows per pattern with the same sensor position and label each one. This data will be then given to the model to be able to analyze the patternes of the datset.
+
+
+Learning Method: I will train the model in Python and make it be able to analyze small patterns such as the average brightness , how much it jumps around , number of spikes in the data , and more.
