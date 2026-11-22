@@ -1,0 +1,7 @@
+Architecture: I will utilise the joystick module to be able to record the motion . The joystic is two potientionmeters which goes in the x direciton and the y direciton with a click button aswell. The Arduino will 
+read these two numbers , so each stick position is an (x,y) pair. The model will watch the dataset of all of these corrdinates and will analyze them. Then , this model will make a descision of what the move is, 
+whether it is up, down , right , left , or a circle .
+
+Dataset : I will do about 50 recordings of the data per move and with always starting with the stick centered, and label each reocring. 
+
+Learning Method : I will use my laptop to code Python to train the model to analyze the data that it is given to it and be able to make the descison of what gesture I made .
